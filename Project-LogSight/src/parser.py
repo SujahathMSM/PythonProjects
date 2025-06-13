@@ -6,3 +6,13 @@ def parse_line(line: str):
 
 def is_relavant(level: str):
     return level in ("ERROR", "WARN", "INFO")
+
+def parse_file(path: str):
+    entries = []
+
+    with open(path, "r", encoding='utf-8') as file:
+        for line in file:
+            lvl, msg = parse_line(line)
+            if is_relavant(lvl):
+                entries.append((lvl, msg))
+    return entries

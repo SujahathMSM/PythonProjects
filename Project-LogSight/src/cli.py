@@ -1,3 +1,7 @@
+import argparse
+from parser import parse_
+
+
 def main():
     print("LogSight")
 
