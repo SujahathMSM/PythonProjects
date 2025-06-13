@@ -1,0 +1,5 @@
+INFO  2025-06-13 Starting up service
+DEBUG 2025-06-13 Debugging connection
+WARN  2025-06-13 Low disk space
+ERROR 2025-06-13 Failed to connect to database
+INFO  2025-06-13 Service running

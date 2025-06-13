@@ -1,0 +1,5 @@
+INFO  2025-06-13 Received request
+INFO  2025-06-13 Processing request
+ERROR 2025-06-13 Unexpected error occurred
+DEBUG 2025-06-13 Verbose logging
+WARN  2025-06-13 High memory usage
